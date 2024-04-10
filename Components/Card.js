@@ -5,7 +5,7 @@ const Card = ({user,index,handleRemove,id}) => {
   const {SongName,Artist,vid} = user;
 
   return (
-    <div className='w-72 bg-zinc-100 rounded-lg flex flex-col items-center p-2'>
+    <div className='w-[24vw] bg-zinc-100 rounded-lg flex flex-col items-center p-2'>
         <div className='image w-full h-[240px] rounded-sm overflow-hidden bg-zinc-200'>
             <ReactPlayer 
                 height={220}
