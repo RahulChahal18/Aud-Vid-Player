@@ -11,7 +11,7 @@ const Form = ({handleFormSubmit}) => {
         <input {...register('Artist')} required className='rounded-md px-2 py-1 text-base font-semibold outline-none' placeholder='Artist' type="text" />
         <input {...register('vid')} required className='rounded-md px-2 py-1 text-base font-semibold outline-none' placeholder='Video/Audio url' type="text" />
         
-        <input type="submit" className='rounded-md bg-blue-500 px-5 py-1 text-white font-semibold'/>
+        <input type="submit" className='hover:cursor-pointer rounded-md bg-blue-500 px-5 py-1 text-white font-semibold'/>
       </form>
     </div>
   )
